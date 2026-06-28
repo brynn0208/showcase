@@ -13,12 +13,9 @@ h1 {
     font-weight: bolder;
 }
 
-h2 {
-    text-shadow: 2px 2px 2.5px #1F062D;
-}
-
-.shadow {
-    text-shadow: 1.5px 1.5px 3px #0D5948;
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
 
 href {
