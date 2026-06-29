@@ -10,6 +10,10 @@ main {
     background-color: lightgray;
 }
 
+body {
+    background-color: lightgray;
+}
+
 h1 {
     font-weight: bolder;
 }
