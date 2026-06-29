@@ -4,13 +4,9 @@ html, body {
 
 main {
     font: 18px 'Bitter', 'Times New Roman', Verdana, Georgia, sans-serif;
+    background-color: lightgray;
     text-indent: 1.5rem;
     padding: 10px;
-    background-color: lightgray;
-}
-
-body {
-    background-color: lightgray;
 }
 
 h1 {
