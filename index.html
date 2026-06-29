@@ -12,9 +12,7 @@
     <main>
         <h1>Brynna's Showcase</h1>
         <body>
-            <p class="lh-base indent">Hello! I'm Brynna Morton, a graphic designer. I have experience in graphicdesign, logos, 
-                and iconography. I would like to add website building to my repertoire. Please feel free to browse what I have to offer in the 
-                slideshow below. If you like what you see, contact me at <a href=matilto:brynnarm@gmail.com>BrynnaRM@gmail.com</a></p>
+            <p class="lh-base indent">Hello! I'm Brynna Morton, a creative by trade. I have done graphic design and digital illustrations. I would like to add website building to my repertoire. Please feel free to browse what I have to offer in the slideshow below. If you like what you see, contact me at <a href=matilto:brynnarm@gmail.com>BrynnaRM@gmail.com</a></p>
             <div id="carousel" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -59,7 +57,57 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
+            <p>The slideshow above showcases what I created through my web design course. You can see a few of my non-class design work by clicking the <b>tabs</b> below.</p>
+                <button type="button" class="collapsible" data-bs-toggle="collapse"><h4 class="text-uppercase">Logos</h3></button>
+                    <div class="content">
+                        <section id="experience" class="p-2 p-md-3 mb-2 mb-md-3 border rounded shadow">
+                            <div class="d-flex">
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <img src="designwork/SharpConstructionLogoFINAL.png" class="img-fluid" alt="logo for sharp construction, sharp written in bold and capital blue letters and construction written in simple black. Above sharp is a roof shape with vectors for a hammer and paintbrush inside. The tagline reads: building trust since 1990">
+                                            <img src="designwork/projectsunriselogo.png" class="img-fluid" alt="logo for project sunrise, project written in a muted black-purple shade in sharp lowercase leeters and Sunrise written in bright red (sun) and purple (rise). The R is 'rise' is extended to underline up to halfway to the 'e' in rise, and a darker shade than the rest of the 'rise'. A simple yellow vector gradient sunrise is set behind the words">
+                                            <img src="designwork/tomamV2.png" class="img-fluid" alt="logo for tales of magic and mayhem. 'Tales of' is written in sharp white letters with a golden trim, 'magic' is written in a bubbly font with a rainbow gradient, 'and' is again white with golden trim, and finally 'mayhem' is written in chaotic letters of varrying width with a dark blue and black color gradient and gray trim.">
+                                            <img src="designwork/DtTV2.png" class="img-fluid" alt="logo for detecting the truth. 'Detecting' and 'truth' is written in a blocky purple font and off-white trim. 'The' is written in a light blue and slightly unfocused, being the subject of a magnifying glass vector that is positioned behind the rest of the logo">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                <button type="button" class="collapsible" data-bs-toggle="collapse"><h4 class="text-uppercase">Iconography</h3></button>
+                    <div class="content">
+                        <section id="experience" class="p-2 p-md-3 mb-2 mb-md-3 border rounded shadow">
+                            <div class="d-flex">
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <img src="designwork/ScorpionsV2.png" class="img-fluid" alt="a vector scorpion shape with two tails">
+                                            <img src="designwork/hivev2.png" class="img-fluid" alt="a vector butterfly shape within a spider-like web">
+                                            <img src="designwork/cosmos.png" class="img-fluid" alt="a vector shooting star shape">
+                                            <img src="designwork/hourglass.png" class="img-fluid" alt="a vector hourglass with sand falling down">
+                                            <img src="designwork/infiniboundv2.png" class="img-fluid" alt="an infinity symbol with four direction arrows pointing north, south, east, and west with a central four-pointed star">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                    } 
+                else {content.style.display = "block";
+                }
+                });
+                }
+                </script>
         </body>
     </main>
 </html>
