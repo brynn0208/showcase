@@ -1,6 +1,9 @@
 html, body {
     font-size: 14px;
     background-color: lightgray;
+    font: 18px 'Bitter', 'Times New Roman', Verdana, Georgia, sans-serif;
+    text-indent: 1.5rem;
+    padding: 10px;
 }
 
 main {
